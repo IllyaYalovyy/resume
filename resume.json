@@ -1,0 +1,326 @@
+{
+  "basics": {
+    "name": "Illya Yalovyy",
+    "label": "Senior Software Engineer",
+    "email": "YALOVOY@GMAIL.COM",
+    "phone": "(323) 412-0621",
+    "summary": "Seasoned Senior Software Engineer with over 20 years of expertise in designing and scaling complex distributed systems using Java, Golang, Rust, and AWS Cloud. A trusted technical leader who defines architectural strategies, drives cross-organizational initiatives, and aligns engineering solutions with business objectives. Proven ability to guide teams through ambiguity, optimize infrastructure for cost and performance, and deliver secure, scalable platforms in domains such as cloud infrastructure, genomics, and satellite communications. Adept at mentoring engineers, influencing technical direction, and fostering operational excellence. Seeking a Senior, Staff, or Principal Engineer role to shape large-scale, high-impact systems that advance business and technology frontiers.",
+    "location": {
+      "address": "",
+      "postalCode": "98052",
+      "city": "Redmond",
+      "countryCode": "US",
+      "region": "WA"
+    },
+    "profiles": [
+      {
+      	  "network": "LinkedIn",
+      	  "username": "illyayalovyy",
+      	  "url": "https://www.linkedin.com/in/illyayalovyy/"
+      },
+      {
+      	  "network": "GitHub",
+      	  "username": "IllyaYalovyy",
+      	  "url": "https://github.com/IllyaYalovyy"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Amazon Project Kuiper",
+      "position": "Senior Software Engineer",
+      "startDate": "2024-10",
+      "summary": "As a Senior Software Engineer at Amazon Project Kuiper, I focus on developing and implementing secure communication protocols between satellite components and ground systems. My role involves ensuring the integrity, confidentiality, and reliability of data transmissions across complex networks, contributing to the overall mission of providing global, low-latency broadband connectivity.",
+      "highlights": ["Rust", "AWS"]
+    },
+    {
+      "name": "Amazon Web Services: RDS",
+      "position": "Senior Software Engineer",
+      "startDate": "2022-05",
+      "endDate": "2024-10",
+      "summary": "I played a leading role in a crucial internal project at AWS aimed at simplifying the development of new AWS services and the enhancement of existing ones. This initiative is essentially creating a centralized Control Plane as a service, streamlining the development process for both future and existing AWS services. My role primarily focuses on the provisioning of Data Plane infrastructure and the deployment of software to these Data Plane resources. AWS offers a vast array of services, each consisting of a Control Plane and a Data Plane. Historically, these services developed independently, leading to a proliferation of distinct Control Planes, each maintained by its dedicated team. The objective of our project is to consolidate these into a single, unified Control Plane. This approach not only optimizes resource allocation, allowing teams to dedicate more effort to innovation rather than maintenance but also enhances the efficiency and scalability of service development. Currently, my work encompasses not just infrastructure provisioning and software deployment, but also Fleet automation, Telemetry, and customer metrics. This unified Control Plane incorporates reusable components, each representing a core Control Plane function, facilitating the rapid adoption by new AWS services and supporting them in meeting project timelines and focusing on delivering customer value.",
+      "highlights": [
+        "Rust", "Java", "AWS"
+      ]
+    },
+    {
+      "name": "Amazon Web Services: Health AI",
+      "position": "Senior Software Engineer",
+      "startDate": "2021-03",
+      "endDate": "2022-05",
+      "summary": "At AWS Health AI, I led the redesign and launch of the Amazon Genomics CLI to meet our release schedule despite unclear requirements. This work required a careful approach to understand and fulfill the complex needs of genomic research. Afterwards, I worked with three teams on designing AWS services for managing genomic data. This project involved solving the significant challenge of storing large amounts of genomic data in a way that was both cost-effective and secure, ensuring that privacy was always protected. My efforts contributed to the launch of Amazon Omics, enhancing our capabilities in genomic data analysis and storage. Throughout this process, adapting to changing requirements and tight timelines was crucial for our success.",
+      "highlights": [
+      "Go", "AWS", "Python", "Java",
+        "Successfully launched an open-source command line tool for running genomics workflows on AWS (Amazon Genomics CLI)"
+      ]
+    },
+    {
+      "name": "Amazon Web Services: Data Center Automation",
+      "position": "Senior Software Engineer",
+      "startDate": "2018-06",
+      "endDate": "2021-03",
+      "summary": "Spearheaded the development of the workforce management component and its integration with Amazon's internal personnel management systems, significantly enhancing operational efficiency across AWS' global data centers. Championed the introduction of Golang within the team, leading to its widespread adoption due to enhanced performance and reduced code complexity. Drove operational excellence through continuous code and metric improvements, contributing to the robustness and scalability of the system. Owned and successfully rolled out the workforce management service across all public AWS regions, ensuring seamless global operations. Several core services for the new platform have been developed and integrated in the record time. Achieved significant codebase optimization by refactoring Lambda handler implementations, eliminating over 9,000 lines of boilerplate code, thereby improving maintainability and deployment efficiency.",
+      "highlights": [
+      "Go", "Java", "AWS",
+        "Lead the development of critical system components for mobile lab operators during the COVID-19 lockdown, facilitating efficient COVID test appointments and result processing."
+      ]
+    },
+    {
+      "name": "Amazon Web Services: Elastic Map Reduce",
+      "position": "Senior Software Engineer",
+      "startDate": "2015-01",
+      "endDate": "2018-06",
+      "summary": "Amazon Elastic Map Reduce (EMR) makes it easy to run Hadoop clusters in a cloud. My responsibility is to make all open source applications from Hadoop ecosystem (Hive, Spark, Tez, Presto, HBase, etc.) to run perfectly on EMR. Elasticity and deep integration with other Amazon Web Services are key differentiators for EMR. My focus is mostly on integration with Amazon Simple Storage Service (s3) and DynamoDB. It includes maintaining and enhancing Direct Write and Fast Listing optimizations for Hive, Consistent View and Storage Level Security for EmrFS,  Maintaining and enhancing S3DistCp and other tools. Participation in the design of core features of EMR. Doing a lot of Design and Code reviews for different teams in EMR.",
+      "highlights": [
+      "Java",
+      "Helped to open source emr-dynamodb-connector: https://github.com/awslabs/emr-dynamodb-connector",
+      "Reduced costs of storing EMR logs by 80%",
+      "Solved critical support cases (Hive, HBase, EmrFS, S3DistCp, etc)",
+      "Improved performance and stability of Hive LDAP integration",
+      "HIVE-10980 Merge of dynamic partitions loads all data to default partition",
+      "HIVE-11583 When PTF is used over a large partitions result could be corrupted",
+      "HIVE-11882 Fetch optimizer should stop source files traversal once it exceeds the hive.fetch.task.conversion.threshold",
+      "HIVE-13510 Dynamic partitioning doesn’t work when remote metastore is used",
+      "HIVE-14713 LDAP Authentication Provider should be covered with unit tests",
+      "HIVE-15076 Improve scalability of LDAP authentication provider group filter",
+      "HIVE-13185 orc.ReaderImp.ensureOrcFooter() method fails on small text files with IndexOutOfBoundsException",
+      "OOZIE-2402 oozie-setup.sh sharelib create takes a long time on large clusters",
+      "SQOOP-3136 Sqoop should work well with non default file systems"
+      ]
+    },
+    {
+      "name": "Amazon Web Services: Elastic Map Reduce",
+      "position": "Software Engineer",
+      "startDate": "2014-06",
+      "endDate": "2015-01",
+      "summary": "The most prominent achievement is the release of a new version of Hive (upgrade from 0.11 to 0.13.1) with Direct Write, Fast Listing and other optimizations (780 lines of code in 16 classes).",
+      "highlights": ["Java", "Apache Hive"]
+    },
+    {
+      "name": "EPAM Systems, United States",
+      "position": "Lead Software Engineer, Project Coordinator",
+      "startDate": "2011-09",
+      "endDate": "2014-06",
+      "summary": "Enterprise Data Warehouse migration from DB2 to Apache Hadoop. Designed and build Big Data platform for Data Warehouse based Hadoop 1.0, Hive 0.13 and number of custom components: Data synchronizations tool, Metadata manager, UDF library and custom SerDe for Hive, ETL engine. Helped ETL developers from Expedia to embrace new technology. Performed design reviews and code reviews for migrated ETLs.",
+      "highlights": ["~750TB of data were migrated to Hadoop HDFS from DB2 (reduced costs of storage)", "more than 100 ETL jobs were successfully migrated from DB2/Informatica to Hadoop/Control-M/Custom ETL runner", "Improved Fraud Detection module performance from 5 days to 2 hours (rewritten from Python to Java, improved parallelism)", "Java", "Python", "SQL", "NoSQL"]
+    },
+    {
+      "name": "EPAM Systems, Ukraine",
+      "position": "Senior Software Engineer",
+      "startDate": "2010-06",
+      "endDate": "2011-09",
+      "summary": "Project: Thomson Reuters Content Delivery Technology",
+      "highlights": ["Java", "SQL", "NoSQL"]
+    },
+    {
+      "name": "AZObchod.cz, Czech Republic",
+      "position": "Senior Software Engineer",
+      "startDate": "2008-11",
+      "endDate": "2010-05",
+      "summary": "Support and improvement of the existing infrastructure. Design and implementation of new modules and features. Integration with external services and systems (SOAP, RPC, REST, ETL). Development of back-office and middleware applications for improving data integrity. Design and implementation of netbook oriented GUI for warehouse automation. Conceptual design and implementation of business processes. System architecture review and refactoring. Improvement of the development process. Participation in planning.",
+      "highlights": ["Java", "Perl", "SQL", "Reduced rate of errors on warehouse by 75%"]
+    },
+    {
+      "name": "EPAM Systems, Ukraine",
+      "position": "Software Engineer/Senior Software Engineer/Lead Developer",
+      "startDate": "2006-05",
+      "endDate": "2008-10",
+      "summary": "Analytic workflow (pre-reporting stage), machine learning classification (data mining stage), on-line surveys integration (Data source), custom framework refactoring and enhancement, solution/code review. Prototyping of distributed NLP service to improve system scalability. Participated in the architecture board, requirements elicitation, customer support. Helped evaluate anaphora resolution and sentiment detection algorithms.",
+      "highlights": ["Java", "NLP", "ML", "SQL"]
+    },
+    {
+      "name": "Delta Pilot State Enterprise",
+      "position": "Software Engineer",
+      "startDate": "2001-08",
+      "endDate": "2006-05",
+      "summary": "",
+      "highlights": []
+    }
+  ],
+  "education": [
+    {
+      "institution": "Ukrainian State Maritime Technical University",
+      "url": "https://en.wikipedia.org/wiki/Admiral_Makarov_National_University_of_Shipbuilding",
+      "area": "Electrical Engineering",
+      "studyType": "Master",
+      "startDate": "1992",
+      "endDate": "1998",
+      "score": "",
+      "courses": []      
+    }
+  ],
+  "skills": [
+    {
+      "name": "AWS CDK",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "AWS S3",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Amazon API Gateway",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Amazon Aurora (MySql)",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Amazon DynamoDB",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Amazon Lambda",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Amazon Linux",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Bash",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "BigData",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "CloudFormation",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "EMR",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "ETL",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Fargate",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Golang",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Hadoop MapReduce",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Hibernate",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Hive",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "JBoss",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "JSP/Servlet",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Java",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Java (Guava",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Java Spring",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Json",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Kotlin",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Parquet",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Python",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Rust",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "SQL",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Spark",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "XML/XSTL",
+      "level": "",
+      "keywords": []
+    }
+  ],
+  "projects": [],
+  "certificates": [],
+  "awards": [],
+  "publications": [{
+    "name": "Seven Tips for Using S3DistCp on Amazon EMR to Move Data Efficiently Between HDFS and Amazon S3",
+    "publisher": "Amazon AWS",
+    "releaseDate": "2017-06-02",
+    "url": "https://aws.amazon.com/blogs/big-data/seven-tips-for-using-s3distcp-on-amazon-emr-to-move-data-efficiently-between-hdfs-and-amazon-s3/",
+    "summary": "The article provides guidance on using S3DistCp, a tool designed to efficiently transfer large-scale data between HDFS and Amazon S3 on Amazon EMR. It outlines seven practical tips to optimize performance, reduce costs, and handle common data migration challenges like small files, large datasets, and file format conversions."
+  }],
+  "languages": [
+    {
+      "language": "Russian",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Fluent"
+    }
+  ],
+  "interests": [],
+  "references": []
+}

@@ -1,0 +1,21 @@
+{
+  "name": "resume",
+  "private": true,
+  "scripts": {
+    "validate": "resume validate",
+    "prepare:dir": "mkdir -p build",
+    "build:html": "npm run prepare:dir && resume export build/index.html --theme actual",
+    "build:pdf":  "npm run prepare:dir && resume export build/resume.pdf  --theme actual --format pdf",
+    "build:md":   "npm run prepare:dir && resume export build/resume.md --theme kendall-markdown",
+    "build": "npm run validate && npm run build:html && npm run build:pdf && npm run build:md",
+    "serve": "resume serve --theme actual"
+  },
+  "dependencies": {
+    "@jsonresume/jsonresume-theme-class": "^0.4.2",
+    "jsonresume-theme-actual": "^0.2.2",
+    "jsonresume-theme-elegant": "^1.16.1",
+    "jsonresume-theme-even": "^0.26.0",
+    "jsonresume-theme-kendall-markdown": "^0.2.10",
+    "resume-cli": "^3.0.8"
+  }
+}
