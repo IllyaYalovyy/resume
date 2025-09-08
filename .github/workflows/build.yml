@@ -24,9 +24,11 @@ jobs:
       - name: Install deps
         run: npm ci
 
-      # Ensure common Unicode/emoji fonts for clean PDFs
+      # Ensure common Unicode/emoji fonts for clean PDFs (correct package names)
       - name: Install fonts
-        run: sudo apt-get update && sudo apt-get install -y fonts-noto fonts-noto-cjk fonts-noto-emoji
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y fonts-noto-core fonts-noto-cjk fonts-noto-color-emoji
 
       - name: Build HTML/PDF/MD
         run: npm run build
@@ -37,11 +39,11 @@ jobs:
           name: resume-build
           path: build/
 
-      # --- Optional: Publish HTML to GitHub Pages ---
+      # Publish HTML (and accompanying assets) to GitHub Pages
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: build
+          path: build/
 
   deploy:
     needs: build
